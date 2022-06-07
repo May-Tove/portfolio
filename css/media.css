@@ -1,0 +1,74 @@
+@media (min-width: 799px){
+  h1 {
+    font-size: 3rem;
+    max-width: 700px;
+  }
+
+  .hero{
+    padding: 5rem;
+    padding-top:12rem;
+  }
+
+  .hero p{
+    font-size: 2rem;
+    max-width: 600px;
+}
+  /* remove mobile menu and display links in the navbar instead */
+  .menu-btn,
+  .hamburger,
+  .close-menu {
+    display: none;
+  }
+
+  .nav-links {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .nav-links li {
+    opacity: 1;
+    padding: 1.5rem;
+  }
+
+  .nav-links a {
+    position: relative;
+  }
+
+  /* my projects */
+.section-title {
+  font-size: 2rem;
+}
+.project-container {
+  gap: 7rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.card {
+  width: unset;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: flex-end;
+  gap: 3rem;
+}
+
+.card img {
+  width: 500px;
+height: 600px;
+}
+
+/* footer */
+footer {
+  padding: 4rem;
+}
+
+.footer-container {
+  flex-direction: row;
+  gap: 4rem;
+}
+
+}

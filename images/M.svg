@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="68" viewBox="0 0 56 68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 70px;
+        font-family: SonderRegular, Sonder;
+      }
+    </style>
+  </defs>
+  <text id="M" class="cls-1" transform="translate(28 54)"><tspan x="-27.125" y="0">m</tspan></text>
+</svg>
