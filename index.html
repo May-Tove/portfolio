@@ -20,24 +20,23 @@
                 <img src="images/MAY.svg" alt="" class="logo">
                 <nav class="main-menu">
                     <ul class="nav-links">
-                        <li><i class="fa-solid fa-xmark close-menu"></i></li>
-                        <li><a href="#home">Home</a></li>
                         <li><a href="#projects">Projects</a></li>
-                        <li><a href="#about">About</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
-                <button class="menu-btn" aria-label="hamburger menu">
-                    <i class="fa-solid fa-bars hamburger"></i>
-                  </button>
             </div>
         </div>
     </header>
     <main>
-        <section class="hero slide-in from-left" id="home">
-            <h1>I'm <span class="name">May</span>, a front-end development student at Noroff</h1>
-            <p>I have a passion for creating digital design built with structured code</p>
-            <a href="#projects">View my projects <i class="fa-solid fa-arrow-right-long"></i></a>
+        <section class="hero">
+            <div class="hero slide-in from-left">
+                <h1>I'm May, a front-end development student at Noroff</h1>
+                <p>I have a passion for creating digital design built with structured code</p>
+                <a href="#projects">View my projects <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <div class="slide-in from-right">
+                <img src="images/me.jpeg" alt="" class="hero-img" />
+            </div>
         </section>
         <section class="project-container" id="projects">
             <h2 class="section-title">Projects</h2>
@@ -65,28 +64,6 @@
                     </div>
                 </div>
             </div>
-            <div class="card right-card fade-in">
-                <div class="text-box">
-                    <h3>Community Science Museum | Semester Project 1</h3>
-                    <p>
-                        The project should reflect my creative and technical knowledge
-                        and skills based on the first semester of my studies. This
-                        includes design principles, project management, communication
-                        technology, and developing with HTML/CSS. The goal for this
-                        assignment was to design and develop a website for a fictitious
-                        interactive science museum called the Community Science Museum.
-                    </p>
-                    <div class="card-links">
-                        <a href="https://zen-thompson-8d07a8.netlify.app" target="_blank" class="cta">
-                            View website
-                        </a>
-                        <a href="https://github.com/May-Tove/semester-project-1/find/main" target="_blank" class="cta code-cta">
-                            View Code
-                        </a>
-                    </div>
-                </div>
-                <img src="images/csm-mockup.jpg" alt="" />
-            </div>
             <div class="card fade-in">
                 <img src="images/rainydays-mockup2.jpg" alt="" />
                 <div class="text-box">
@@ -111,62 +88,41 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="about" id="about">
-            <div class="about-txt">
-                <h2>About me</h2>
-                <p>
-                    Jeg har en bakgrunn i hotell og næringsbransjen, både med salg,
-                    kundeservice, servering og event-planlegging. Etter 8 fantastiske år
-                    bestemte jeg meg for å gå i en ny retning og satse på en digital
-                    framtid. Jeg søkte meg inn på front end utvikling hos Noroff
-                    nettstudier og har aldri følt meg mere hjemme i noe jeg driver med.
-                </p>
-                <p>
-                    Design i alle former har alltid vært noe jeg brenner for,
-                    programmering har jeg derimot ikke hatt den samme kjennskapen til,
-                    men det har facsinert meg og er noe jeg har hatt lyst til å lære
-                    siden "Tumblr-tidene" i 2013 da jeg oppdaget at man kunne redigere
-                    sin egen side med HTML. Jeg skulle ønske jeg begynte mye tidligere
-                    da det er en verden jeg virkelig elsker å fordype meg i.
-                </p>
-                <p>
-                    Jeg håper på å kunne jobbe med og utvikle meg innen design og
-                    programmering i resten av mitt yrkesaktive liv.
-                </p>
+            <div class="card right-card fade-in">
+                <img src="images/csm-mockup.jpg" alt="" />
+                <div class="text-box">
+                    <h3>Community Science Museum | Semester Project 1</h3>
+                    <p>
+                        The project should reflect my creative and technical knowledge
+                        and skills based on the first semester of my studies. This
+                        includes design principles, project management, communication
+                        technology, and developing with HTML/CSS. The goal for this
+                        assignment was to design and develop a website for a fictitious
+                        interactive science museum called the Community Science Museum.
+                    </p>
+                    <div class="card-links">
+                        <a href="https://zen-thompson-8d07a8.netlify.app" target="_blank" class="cta">
+                            View website
+                        </a>
+                        <a href="https://github.com/May-Tove/semester-project-1/find/main" target="_blank" class="cta code-cta">
+                            View Code
+                        </a>
+                    </div>
+                </div>
             </div>
-            <img src="images/IMG_5836.jpeg" alt="" />
         </section>
     </main>
     <script src="js/script.js" type="module"></script>
-    <footer>
+    <footer id="contact">
         <div class="footer-message">
-            <h3>Thanks for visiting my portfolio</h3>
-            <a href="mailto:maytoveh@gmail.com" class="cta">Send me an email</a>
+            <h4>Thanks for visiting my portfolio!</h4>
+            <a href="mailto:maytovhe@gmail.com" class="cta">Send me an email</a>
         </div>
         <div class="footer-container">
             <a href="#">GitHub</a>
             <a href="#">Linkedin</a>
             <a href="mailto:maytovhe@gmail.com">maytoveh@gmail.com</a>
             <a href="tel:908 02 292">908 02 292</a>
-            <!-- <div class="footer-group">
-                <h4>Navigation</h4>
-                <a href="#home">Home</a>
-                <a href="#projects">Projects</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
-            </div>
-            <div class="footer-group">
-                <h4 id="contact">Contact</h4>
-                <a href="mailto:maytovhe@gmail.com">maytoveh@gmail.com</a>
-                <a href="tel:908 02 292">908 02 292</a>
-            </div>
-            <div class="footer-group">
-                <h4>Socials</h4>
-                <a href="#">GitHub</a>
-                <a href="#">Linkedin</a>
-                <a href="#">Instagram</a>
-            </div> -->
         </div>
     </footer>
 </body>

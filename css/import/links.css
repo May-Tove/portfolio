@@ -10,6 +10,10 @@ a:hover{
     transition: all .3s ease;
 }
 
+.nav-links .active{
+    color: #E82A93;
+}
+
 .cta{
     padding: .7rem 1.3rem;
     position: relative;
