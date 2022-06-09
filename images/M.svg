@@ -1,12 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="56" height="68" viewBox="0 0 56 68">
+<svg xmlns="http://www.w3.org/2000/svg" width="102" height="102" viewBox="0 0 102 102">
   <defs>
     <style>
       .cls-1 {
+        fill: #434343;
+      }
+
+      .cls-2 {
         fill: #fff;
-        font-size: 70px;
-        font-family: SonderRegular, Sonder;
+        font-size: 64px;
+        font-family: Poppins-Regular, Poppins;
       }
     </style>
   </defs>
-  <text id="M" class="cls-1" transform="translate(28 54)"><tspan x="-27.125" y="0">m</tspan></text>
+  <g id="M" transform="translate(-708 -4513)">
+    <circle id="Ellipse_100" data-name="Ellipse 100" class="cls-1" cx="51" cy="51" r="51" transform="translate(708 4513)"/>
+    <text id="M-2" data-name="M" class="cls-2" transform="translate(759 4583)"><tspan x="-32.96" y="0">m</tspan></text>
+  </g>
 </svg>

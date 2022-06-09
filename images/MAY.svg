@@ -1,12 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="117" height="70" viewBox="0 0 117 70">
+<svg xmlns="http://www.w3.org/2000/svg" width="164" height="99" viewBox="0 0 164 99">
   <defs>
     <style>
       .cls-1 {
         fill: #fff;
         font-size: 70px;
-        font-family: SonderRegular, Sonder;
+        font-family: Poppins-Regular, Poppins;
+        letter-spacing: 0.029em;
       }
     </style>
   </defs>
-  <text id="MAY" class="cls-1" transform="translate(58 54)"><tspan x="-57.47" y="0">may</tspan></text>
+  <text id="MAY" class="cls-1" transform="translate(82 74)"><tspan x="-81.445" y="0">may</tspan></text>
 </svg>
