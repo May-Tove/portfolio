@@ -1,12 +1,13 @@
 a{
     text-decoration: none;
      /* color: rgb(50, 50, 50);  */
-     color: #181A1B;
+     /* color: #181A1B; */
+     color: linen;
     transition: all .3s ease;
 }
 
 a:hover{
-    color: rgba(99,88,238,1);
+    color: rgba(150,93,233,1);
     transition: all .3s ease;
 }
 
@@ -31,6 +32,6 @@ background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);  */
 
 .cta:hover {
     color: white;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 16px, rgba(0, 0, 0, 0.05) 0px 8px 32px;
   }
 
