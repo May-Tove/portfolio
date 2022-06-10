@@ -1,0 +1,7 @@
+:root{
+    --mainColor: #181a1b;
+    --cardColor: #2b2b2b;
+    --textColor: rgb(253, 246, 239);
+    --boxShadow: rgba(0, 0, 0, 0.05) 0px 4px 16px, rgba(0, 0, 0, 0.05) 0px 8px 32px;
+
+}
