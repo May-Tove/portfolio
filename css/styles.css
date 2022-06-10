@@ -19,7 +19,9 @@ body {
 }
 
 /* navbar */
-.navbar, .navbar-center, .nav-links{
+.navbar,
+.navbar-center,
+.nav-links {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -65,7 +67,9 @@ body {
   font-size: 1.3rem;
 }
 
-.project-container, .card, .text-box{
+.project-container,
+.card,
+.text-box {
   display: flex;
   flex-direction: column;
   align-items: center;

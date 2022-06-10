@@ -10,7 +10,7 @@
   }
 
   /* navbar */
-  .navbar-center{
+  .navbar-center {
     padding: 0 4rem;
   }
 
@@ -58,7 +58,7 @@
     height: 500px;
   }
 
-  .text-box{
+  .text-box {
     align-items: unset;
     text-align: unset;
     max-width: 520px;
