@@ -1,3 +1,23 @@
+@media (min-width: 600px) {
+  /* hero */
+  .hero {
+    max-width: 1200px;
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .hero-container {
+    flex-direction: row;
+  }
+
+  .hero-container img {
+    max-width: 40%;
+  }
+}
+
 @media (min-width: 768px) {
   .card img {
     height: 540px;
@@ -16,24 +36,6 @@
 
   .nav-links {
     gap: 4rem;
-  }
-
-  /* hero */
-  .hero {
-    max-width: 1200px;
-  }
-
-  .hero-container {
-    flex-direction: row;
-  }
-
-  .hero-container img {
-    max-width: 40%;
-  }
-
-  .hero p {
-    font-size: 2rem;
-    max-width: 600px;
   }
 
   /* my projects */

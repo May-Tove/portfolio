@@ -24,8 +24,37 @@
 
 .nav-links li {
   list-style: none;
+  position: relative;
+}
+
+.nav-links a {
+  transform: translateX(100%);
+  transition: all 0.7s ease-in-out;
 }
 
 .logo {
   max-width: 60px;
+}
+
+/* hover effect on nav links */
+.nav-links a.active::after,
+.nav-links a::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: var(--mainColor);
+  position: absolute;
+  top: 25px;
+  left: 0;
+  border-radius: 5px;
+}
+
+.nav-links a::after {
+  transition: 0.3s ease-in-out;
+  transform: scale(0, 1);
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after {
+  transform: scale(1, 1);
 }
