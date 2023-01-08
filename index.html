@@ -1,126 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>May-Tove Hovdal</title>
-    <script src="https://kit.fontawesome.com/155738729b.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="images/M.svg">
+    <script
+      src="https://kit.fontawesome.com/155738729b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="images/logo-small.png" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/media.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="navbar">
-            <div class="navbar-center">
-                <img src="images/MAY.svg" alt="logo" class="logo">
-                <nav class="main-menu">
-                    <ul class="nav-links">
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
+      <div class="navbar">
+        <div class="navbar-center">
+          <a href="#home">
+            <img src="/images/may-logo.png" alt="Logo" class="logo"
+          /></a>
+
+          <nav class="main-menu">
+            <ul class="nav-links">
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </header>
     <main>
-        <section class="hero  slide-in from-left">
-            <h1>I'm May-Tove, a front-end development student at Noroff</h1>
-            <p>I have a passion for creating digital design built with structured code</p>
-            <a href="#projects">View my projects <i class="fa-solid fa-arrow-right-long"></i></a>
-        </section>
-        <section class="project-container" id="projects">
-            <h2 class="section-title">Projects</h2>
-            <div class="card fade-in">
-                <img src="images/globetrotter-mockup4.jpg" alt="image of site in use" />
-                <div class="text-box">
-                    <h3>Globetrotter | Project Exam 1</h3>
-                    <p>
-                        The goal for this project was to put into practice the skills
-                        learned over my first year of studies. The task was to create a
-                        blog site with a theme of our own choice. Blog posts for the
-                        website are stored on a WordPress installation used as a
-                        Headless CMS. The website itself is built using HTML, CSS and
-                        JavaScript and making a call to the WordPress REST API to fetch
-                        the data.
-                    </p>
-                    <div class="card-links">
-                        <a href="https://lambent-trifle-5bffa7.netlify.app" target="_blank" class="cta site-cta">
-                            View website
-                        </a>
-                        <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-May-Tove/find/main"
-                            target="_blank" class="cta code-cta">
-                            View Code
-                        </a>
-                    </div>
-                </div>
+      <section class="hero" id="home">
+        <div class="hero-container">
+          <h1>
+            <span>&#128075;</span> I'm May-Tove Hovdal, a front-end development
+            student at Noroff
+          </h1>
+          <img src="/images/portrait.png" alt="Portrait of May-Tove Hovdal" />
+        </div>
+      </section>
+      <section class="project-container" id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="card right-card fade-in">
+          <img src="images/bidspot-mockup.jpg" alt="image of site in use" />
+          <div class="text-box">
+            <div class="card-heading">
+              <h3>BidSpot</h3>
+              <p>Semester Project 2</p>
+              <span class="muted">Grade: Not graded yet</span>
             </div>
-            <div class="card fade-in">
-                <img src="images/rainydays-mockup2.jpg" alt="image of site in use" />
-                <div class="text-box">
-                    <h3>Rainydays | Cross Course Project</h3>
-                    <p>
-                        I have worked on this project throughout the entire first year
-                        of my studies. The assignment was to develop an e-commerce site
-                        for a fictional company called Rainydays, that sells outdoor
-                        jackets. The products for the website are stored on a WordPress
-                        installation used as a Headless CMS. The website itself is built
-                        using HTML, CSS and JavaScript and making a call to the
-                        WordPress REST API to fetch the data.
-                    </p>
-                    <div class="card-links">
-                        <a href="https://optimistic-mirzakhani-245dcf.netlify.app" target="_blank" class="cta site-cta">
-                            View website
-                        </a>
-                        <a href="https://github.com/Noroff-FEU-Assignments/cross-course-project-May-Tove/find/main"
-                            target="_blank" class="cta code-cta">
-                            View Code
-                        </a>
-                    </div>
-                </div>
+            <p>
+              The goal for my second semester project was to take the skills
+              learned over the past three semesters at the Noroff Front End
+              Development course and create an online auction website.
+            </p>
+            <p>
+              BidSpot is built using Bootstrap, SCSS, vanilla JavaScript and
+              Noroff Auction API. Users can list items for sale and bid on other
+              listings. New users get 1000 credits when registering an account,
+              the credits can be used to place bids on listings, users earn more
+              credits when selling items. Non-registered users can search
+              through the listings, but only registered users can make bids on
+              listings.
+            </p>
+            <div class="card-links">
+              <a
+                href="https://bidspot.netlify.app"
+                target="_blank"
+                class="cta site-cta"
+              >
+                View demo website
+              </a>
+              <a
+                href="https://github.com/May-Tove/bidspot"
+                target="_blank"
+                class="cta code-cta"
+              >
+                View Code
+              </a>
             </div>
-            <div class="card right-card fade-in">
-                <img src="images/csm-mockup.jpg" alt="image of site in use" />
-                <div class="text-box">
-                    <h3>Community Science Museum | Semester Project 1</h3>
-                    <p>
-                        The project should reflect my creative and technical knowledge
-                        and skills based on the first semester of my studies. This
-                        includes design principles, project management, communication
-                        technology, and developing with HTML/CSS. The goal for this
-                        assignment was to design and develop a website for a fictitious
-                        interactive science museum called the Community Science Museum.
-                    </p>
-                    <div class="card-links">
-                        <a href="https://zen-thompson-8d07a8.netlify.app" target="_blank" class="cta site-cta">
-                            View website
-                        </a>
-                        <a href="https://github.com/May-Tove/semester-project-1/find/main" target="_blank"
-                            class="cta code-cta">
-                            View Code
-                        </a>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="card right-card fade-in">
+          <img src="images/social-mockup.jpg" alt="image of site in use" />
+          <div class="text-box">
+            <div class="card-heading">
+              <h3>Social</h3>
+              <p>Cross Course Project 2nd Year</p>
             </div>
-        </section>
+
+            <p>
+              A project i have been working on during my third semester at
+              Noroff with focus on Bootstrap, SCSS and Vanilla Javascript. It is
+              a social media platform for students and teachers at Noroff, using
+              Noroff's own API database. During this project i have gained a
+              deeper understanding of JS and leanred to split the code in
+              modules and use imports and export to make it as DRY as possible.
+            </p>
+            <div class="card-links">
+              <a
+                href="https://social-cross-course.netlify.app"
+                target="_blank"
+                class="cta site-cta"
+              >
+                View demo website
+              </a>
+              <a
+                href="https://github.com/May-Tove/social-media-project"
+                target="_blank"
+                class="cta code-cta"
+              >
+                View Code
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card fade-in">
+          <img
+            src="images/globetrotter-mockup4.jpg"
+            alt="image of site in use"
+          />
+          <div class="text-box">
+            <div class="card-heading">
+              <h3>Globetrotter</h3>
+              <p>Project Exam 1</p>
+              <span class="muted">Grade: A</span>
+            </div>
+
+            <p>
+              The goal for this project was to put into practice the skills
+              learned over my first year of studies. The task was to create a
+              blog site with a theme of our own choice. Blog posts for the
+              website are stored on a WordPress installation used as a Headless
+              CMS. The website itself is built using HTML, CSS and JavaScript
+              and making a call to the WordPress REST API to fetch the data.
+            </p>
+            <div class="card-links">
+              <a
+                href="https://lambent-trifle-5bffa7.netlify.app"
+                target="_blank"
+                class="cta site-cta"
+              >
+                View demo website
+              </a>
+              <a
+                href="https://github.com/Noroff-FEU-Assignments/project-exam-1-May-Tove/find/main"
+                target="_blank"
+                class="cta code-cta"
+              >
+                View Code
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card fade-in">
+          <img src="images/rainydays-mockup2.jpg" alt="image of site in use" />
+          <div class="text-box">
+            <div class="card-heading">
+              <h3>Rainydays</h3>
+              <p>Cross Course Project</p>
+            </div>
+
+            <p>
+              I have worked on this project throughout the entire first year of
+              my studies. The assignment was to develop an e-commerce site for a
+              fictional company called Rainydays, that sells outdoor jackets.
+              The products for the website are stored on a WordPress
+              installation used as a Headless CMS. The website itself is built
+              using HTML, CSS and JavaScript and making a call to the WordPress
+              REST API to fetch the data.
+            </p>
+            <div class="card-links">
+              <a
+                href="https://optimistic-mirzakhani-245dcf.netlify.app"
+                target="_blank"
+                class="cta site-cta"
+              >
+                View demo website
+              </a>
+              <a
+                href="https://github.com/Noroff-FEU-Assignments/cross-course-project-May-Tove/find/main"
+                target="_blank"
+                class="cta code-cta"
+              >
+                View Code
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card right-card fade-in">
+          <img src="images/csm-mockup.jpg" alt="image of site in use" />
+          <div class="text-box">
+            <div class="card-heading">
+              <h3>Community Science Museum</h3>
+              <p>Semester Project 1</p>
+              <span class="muted">Grade: A</span>
+            </div>
+
+            <p>
+              The project should reflect my creative and technical knowledge and
+              skills based on the first semester of my studies. This includes
+              design principles, project management, communication technology,
+              and developing with HTML/CSS. The goal for this assignment was to
+              design and develop a website for a fictitious interactive science
+              museum called the Community Science Museum.
+            </p>
+            <div class="card-links">
+              <a
+                href="https://zen-thompson-8d07a8.netlify.app"
+                target="_blank"
+                class="cta site-cta"
+              >
+                View demo website
+              </a>
+              <a
+                href="https://github.com/May-Tove/semester-project-1/find/main"
+                target="_blank"
+                class="cta code-cta"
+              >
+                View Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <script src="js/script.js" type="module"></script>
     <footer id="contact">
-        <div class="footer-message">
-            <h4>Thanks for visiting my portfolio!</h4>
-            <a href="mailto:maytovhe@gmail.com" class="cta">Send me an email</a>
-        </div>
-        <div class="footer-container">
-            <a href="https://github.com/May-Tove" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/may-tove-hovdal-24b406153/" target="_blank">Linkedin</a>
-            <a href="mailto:maytovhe@gmail.com">maytoveh@gmail.com</a>
-            <a href="tel:908 02 292">908 02 292</a>
-        </div>
+      <div class="footer-message">
+        <h4>Thanks for visiting my portfolio!</h4>
+        <a href="mailto:maytovhe@gmail.com" class="cta">Send me an email</a>
+      </div>
+      <div class="footer-container">
+        <a href="https://github.com/May-Tove" target="_blank">GitHub</a>
+        <a
+          href="https://www.linkedin.com/in/may-tove-hovdal-24b406153/"
+          target="_blank"
+          >Linkedin</a
+        >
+        <a href="mailto:maytovhe@gmail.com">maytoveh@gmail.com</a>
+        <a href="tel:908 02 292">908 02 292</a>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>

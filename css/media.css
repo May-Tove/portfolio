@@ -20,9 +20,15 @@
 
   /* hero */
   .hero {
-    padding: 5rem;
-    padding-top: 7rem;
     max-width: 1200px;
+  }
+
+  .hero-container {
+    flex-direction: row;
+  }
+
+  .hero-container img {
+    max-width: 40%;
   }
 
   .hero p {

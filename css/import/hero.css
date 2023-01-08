@@ -1,0 +1,19 @@
+/* hero */
+.hero {
+  gap: 1.5rem;
+  padding-top: 4rem;
+  min-height: 60vh;
+  width: 95vw;
+  margin: 0 auto;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero-container img {
+  max-width: 60%;
+}

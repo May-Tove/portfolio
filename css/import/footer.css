@@ -1,0 +1,25 @@
+/* footer */
+footer,
+.footer-message,
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  width: 90vw;
+  max-width: 550px;
+  margin: 0 auto;
+  gap: 2rem;
+  background-color: transparent;
+  margin-top: 4rem;
+}
+
+.footer-message {
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.footer-container {
+  gap: 2rem;
+  padding: 2rem 0;
+}

@@ -1,0 +1,31 @@
+/* navbar */
+.navbar,
+.navbar-center,
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar {
+  height: 90px;
+  background-color: var(--bgColor);
+}
+
+.navbar-center {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.nav-links {
+  gap: 2rem;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.logo {
+  max-width: 60px;
+}
