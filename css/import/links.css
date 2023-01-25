@@ -21,7 +21,6 @@ a:hover {
   letter-spacing: 0.7px;
   padding: 0.5rem 1.3rem;
   text-transform: uppercase;
-  cursor: pointer;
 }
 
 .cta:hover {
